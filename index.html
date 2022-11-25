@@ -21,7 +21,6 @@
   </div> <!-- video-container -->
 
   <div class="popup-video">
-   <!-- دا الى عامل علامة الاكس -->
    <span>&times;</span>
    <div class="video"><video src="pexels-arthouse-studio-8231348.mp4" muted controls autoplay width="850px" height="750px"></video></div>
    
@@ -30,13 +29,6 @@
  </div> <!-- container -->
 
  <script>
-  // document.querySelector('.video-container video').forEach(vid => {
-  //  // document.querySelector('.popup-video').style.display = 'block';
-  //  vid.onclick = () =>{
-  //   document.querySelector('.popup-video').style.display = 'block';
-  //   document.querySelector('.popup-video video').src =vid.getAttribute('src')
-  //  }
-  // });
 
   document.querySelectorAll('.video-container video').forEach(vid => {
 vid.onclick = () =>{
@@ -54,10 +46,7 @@ document.querySelector('.popup-video').style.display = 'none'
 };
 
    let videoContainer = document.querySelector('.video-container video');
-   // let pop = document.querySelector('.popup-video');
-   // videoContainer.onclick = () =>{
-   //   pop.style.display = 'block';
-   //  }
+  }
    
  </script>
 </body>
